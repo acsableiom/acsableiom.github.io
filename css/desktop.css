@@ -1,0 +1,286 @@
+/* Body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    position: relative;
+}
+/* Global */
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-au{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Index */
+
+#navList{
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    text-align: center;
+    width: 250px;
+    text-decoration: none;
+}
+.btn a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn p{
+    color: #ffffff;
+    background-color: #BC2ADE;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    width: 250px
+}
+
+/* Header */
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #BC2ADE 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header #branding h1:hover{
+    color: #BC2ADE;
+    font-weight: bold;
+}
+
+#tleLnk{
+    text-transform: capitalize;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #BC2ADE;
+    font-weight: bold;
+}
+
+nav span{
+    display: none;
+}
+
+/* Showcase */
+#showcase{
+    min-height: 900px;
+    background: url('../website-images-assets/cantor-gallery.jpg') no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+}
+
+.highlight{
+    color: #BC2ADE;
+    text-align: center;
+    font-size: 30px;
+}
+#showcase h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    color: #AB0DFF;
+    
+} 
+.spnShow{
+    color: #AB0DFF;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+
+/* Image Grid */
+.image-grid{
+    height: 500px*2;
+    color: #ffffff;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.nav-grid{
+    height: 600px;
+    width: 600px;
+    margin: 10px;
+    line-height: 200px;
+    text-align: center;
+    position: relative;
+    border-radius: 0px;
+    border: none;
+
+}
+
+.nav-grid img{
+    height: 600px;
+    width: 600px;
+}
+
+#lnk-grid{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+#igBusiness{
+    background-color: #BC2ADE;
+}
+#igStaff{
+    background-color: #DE2F2A;
+}
+#igContact{
+    background-color: #8430FA;
+}
+#igStudy img{
+    display: block;
+}
+#igLearnRes img{
+    display: block;
+}
+#igStudents img{
+    display: block;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    }
+
+/* Content */
+#content{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Courses */
+.tblComp{
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+}
+.tblComp td{
+    border: 1px solid black;
+    text-align: center;
+}
+.tblComp th{
+    border: 1px solid black;
+    background-color: #BC2ADE;
+    color: #ffffff;
+}
+
+#imgComp{
+    width: 50%;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Contact-Us */
+.gglMap{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* Footer */
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #35424a;
+    width: auto;
+    height: auto;
+}
+
+.ftrAdd{
+    font-size: 12px;
+    width: 100%;
+    margin-top: 5px;
+    line-height: 1.5;
+    position: relative;
+}
+
+
+
+#ftrLogo img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    padding-left: 85%;
+}

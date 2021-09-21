@@ -1,0 +1,342 @@
+/* Body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+
+}
+
+/* Global */
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-au{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Index */
+
+#navList{
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    text-align: center;
+    width: 250px;
+    text-decoration: none;
+}
+.btn a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn p{
+    color: #ffffff;
+    background-color: #BC2ADE;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    width: 250px
+}
+
+/* Header */
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #BC2ADE 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    display: none;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+#tleLnk{
+    text-transform: capitalize;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+/* sidenav */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #BC2ADE;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #main {
+    transition: margin-right .5s;
+  }
+
+/* Showcase */
+#showcase{
+    min-height: 900px;
+    background: url('../website-images-assets/IMG_1005.jpeg') no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+}
+.highlight{
+    color: #BC2ADE;
+    text-align: center;
+    font-size: 30px;
+}
+#welcome{
+    text-align: center;
+}
+
+#showcase h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+} 
+
+#showcase p{
+    font-size: 20px;
+}
+
+
+/* Image Grid */
+#igStudy img{
+    display: none;
+}
+#igLearnRes img{
+    display: none;
+}
+#igStudents img{
+    display: none;
+}
+
+.image-grid{
+    margin: auto;
+    text-decoration: none;
+    width: 80%;
+}
+
+.nav-grid{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #BC2ADE;
+}
+.nav-grid a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Slideshow -  https://www.w3schools.com/howto/howto_js_slideshow.asp */
+.slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slides {
+    display: none
+    
+}
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+.ind {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+  
+.active, .ind:hover {
+background-color: #717171;
+}
+  
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+  
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+
+
+/* Content */
+#content{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Courses */
+.tblComp{
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+}
+.tblComp td{
+    border: 1px solid black;
+    text-align: center;
+}
+.tblComp th{
+    border: 1px solid black;
+    background-color: #BC2ADE;
+    color: #ffffff;
+}
+
+#imgComp{
+    width: 50%;
+    border: 2px solid black;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Contact-Us */
+#ctcMap{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+/* Footer */
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #35424a;
+    width: auto;
+    height: auto;
+}
+
+.ftrAdd{
+    font-size: 12px;
+    width: 100%;
+    margin-top: 5px;
+    line-height: 1.5;
+    position: relative;
+}
+
+
+
+#ftrLogo img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    padding-left: 55%;
+}
